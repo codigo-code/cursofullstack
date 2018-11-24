@@ -1,0 +1,12 @@
+ <h2 style="color:red">Nombre: {{jugador?.nombre}}</h2>
+
+<h2 style="color:blue">Deporte: {{jugador?.deporte}}</h2>
+
+<h2 style="color:green">Club:  {{jugador?.club}}</h2>
+
+<form>
+
+  <input type="number" name="pos" [(ngModel)]="pos" placeholder="Ingrese la posicion que quiere mostrar">
+  <button (click)="buscar()" >Buscar!</button>
+
+</form>

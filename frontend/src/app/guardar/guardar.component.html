@@ -1,0 +1,9 @@
+<form>
+  <input type="text" placeholder="Nombre Jugador"  [(ngModel)]="nombre" name="nombre"> <br>
+  <input type="text" placeholder="Nombre Club"  [(ngModel)]="club" name="club"> <br>
+  <input type="text" placeholder="Nombre Deporte"  [(ngModel)]="deporte" name="deporte"> <br>
+
+  <button (click)="guardoJugador()"> Guardar jugador!</button>
+
+</form>
+<h1>{{mensaje}}</h1>
